@@ -22,6 +22,7 @@ class ViewController: UIViewController {
             imageArray.append(image!)
         }
         
+        
         monsterImg.animationImages = imageArray
         monsterImg.animationDuration = 0.8
         monsterImg.animationRepeatCount = 0
