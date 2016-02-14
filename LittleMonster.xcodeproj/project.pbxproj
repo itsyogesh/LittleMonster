@@ -13,6 +13,8 @@
 		ECFAEAB91C6D326800A672EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFAEAB81C6D326800A672EE /* Assets.xcassets */; };
 		ECFAEABC1C6D326800A672EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFAEABA1C6D326800A672EE /* LaunchScreen.storyboard */; };
 		ECFAEAC41C6FA0BB00A672EE /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAEAC31C6FA0BB00A672EE /* DragImage.swift */; };
+		ECFAEAC61C6FAD3700A672EE /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAEAC51C6FAD3700A672EE /* MonsterImage.swift */; };
+		ECFAEAC81C70543900A672EE /* PenaltyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAEAC71C70543900A672EE /* PenaltyImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ECFAEABB1C6D326800A672EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFAEABD1C6D326800A672EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECFAEAC31C6FA0BB00A672EE /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		ECFAEAC51C6FAD3700A672EE /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
+		ECFAEAC71C70543900A672EE /* PenaltyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenaltyImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ECFAEABA1C6D326800A672EE /* LaunchScreen.storyboard */,
 				ECFAEABD1C6D326800A672EE /* Info.plist */,
 				ECFAEAC31C6FA0BB00A672EE /* DragImage.swift */,
+				ECFAEAC51C6FAD3700A672EE /* MonsterImage.swift */,
+				ECFAEAC71C70543900A672EE /* PenaltyImage.swift */,
 			);
 			path = LittleMonster;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFAEAC81C70543900A672EE /* PenaltyImage.swift in Sources */,
+				ECFAEAC61C6FAD3700A672EE /* MonsterImage.swift in Sources */,
 				ECFAEAB41C6D326800A672EE /* ViewController.swift in Sources */,
 				ECFAEAC41C6FA0BB00A672EE /* DragImage.swift in Sources */,
 				ECFAEAB21C6D326800A672EE /* AppDelegate.swift in Sources */,

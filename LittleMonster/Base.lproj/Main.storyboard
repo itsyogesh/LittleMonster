@@ -40,13 +40,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-15" translatesAutoresizingMaskIntoConstraints="NO" id="AwC-ml-SSA">
                                 <rect key="frame" x="200" y="29" width="200" height="50"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="H60-id-ktD">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="H60-id-ktD" customClass="PenaltyImage" customModule="LittleMonster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="77" height="50"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="G7N-mS-ZLo">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="G7N-mS-ZLo" customClass="PenaltyImage" customModule="LittleMonster" customModuleProvider="target">
                                         <rect key="frame" x="62" y="0.0" width="76" height="50"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="3jM-Xa-IMy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="3jM-Xa-IMy" customClass="PenaltyImage" customModule="LittleMonster" customModuleProvider="target">
                                         <rect key="frame" x="123" y="0.0" width="77" height="50"/>
                                     </imageView>
                                 </subviews>
@@ -58,7 +58,7 @@
                                     <rect key="frame" x="200" y="-4" width="200" height="50"/>
                                 </variation>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="ijx-MM-Iz9">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="ijx-MM-Iz9" customClass="MonsterImage" customModule="LittleMonster" customModuleProvider="target">
                                 <rect key="frame" x="95" y="192" width="500" height="378"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="378" id="1eE-04-AVE"/>
@@ -155,6 +155,9 @@
                         <outlet property="foodImg" destination="olg-H5-E8C" id="3Zb-AU-sDj"/>
                         <outlet property="heartImg" destination="FMI-Qk-V3Y" id="por-f5-3wV"/>
                         <outlet property="monsterImg" destination="ijx-MM-Iz9" id="bMV-Jk-pag"/>
+                        <outlet property="penalty1" destination="H60-id-ktD" id="nPU-ND-0r9"/>
+                        <outlet property="penalty2" destination="G7N-mS-ZLo" id="zBk-8B-9gx"/>
+                        <outlet property="penalty3" destination="3jM-Xa-IMy" id="RHK-mL-KTI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
